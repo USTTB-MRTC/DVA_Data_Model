@@ -56,12 +56,10 @@ The identifiers (ID) in the dataset correspond to the following combinations:
       ; ID.EQ.2 -------> DVA for CQ
       ; ID.EQ.3 -------> DVA for ATO
       ; ID.EQ.4 -------> DVA for PYRI
-      ;
       ; ID.EQ.5 -------> PRR for DHA 
       ; ID.EQ.6 -------> PRR for CQ
       ; ID.EQ.7 -------> PRR for ATO
       ; ID.EQ.8 -------> PRR for PYRI 
-
 ;; Field Isolates:
       ; ID.EQ.9 ------->  DVA for DHA 
       ; ID.EQ.10 -------> DVA for CQ
