@@ -1,6 +1,7 @@
 # DVA_Data_Model
 
 README.txt – NONMEM Model DVA/PRR
+Collaborative project with Merck, USTTB and Hamburg University
 =================================
 
 🔎 Objective
