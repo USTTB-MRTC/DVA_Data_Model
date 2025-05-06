@@ -1,8 +1,8 @@
 # DVA_Data_Model
 
-README.txt – NONMEM Model DVA/PRR
-Collaborative project with Merck, USTTB and Hamburg University
+NONMEM Model DVA/PRR
 =================================
+Collaborative project with Merck, USTTB and Hamburg University
 
 🔎 Objective
 -----------
@@ -12,10 +12,8 @@ It implements an ON/OFF effect based on a LAGTIME to simulate the delayed drug r
 
 📂 File Structure
 -----------------
-- DVA_vs_PRR.csv: input data file containing DVA and PRR observations.
+- DVA_PRR.csv: input data file containing DVA and PRR observations.
 - runXXX.mod: NONMEM model file.
-- sdtab00X: standard output table with individual observations and predictions.
-- patab00X: output table for individual parameter estimates.
 
 
 The dataset (`.csv`) and the model file (`.mod`) must be placed in the same folder.
