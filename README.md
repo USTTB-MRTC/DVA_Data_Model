@@ -47,24 +47,25 @@ The data file must contain the following columns:
 | REPLICATE  | Experimental replicate                                       |
 | CA, CB, CC, CD | Concentrations of compounds (DHA, CQ, ATO, PYRI)        |
 
+
 📊 Dataset Structure by ID
 --------------------------
-The identifiers (ID) in the dataset correspond to the following combinations:
 
-;; 3D7:
-      ; ID.EQ.1 -------> DVA for DHA 
-      ; ID.EQ.2 -------> DVA for CQ
-      ; ID.EQ.3 -------> DVA for ATO
-      ; ID.EQ.4 -------> DVA for PYRI
-      ; ID.EQ.5 -------> PRR for DHA 
-      ; ID.EQ.6 -------> PRR for CQ
-      ; ID.EQ.7 -------> PRR for ATO
-      ; ID.EQ.8 -------> PRR for PYRI 
-;; Field Isolates:
-      ; ID.EQ.9 ------->  DVA for DHA 
-      ; ID.EQ.10 -------> DVA for CQ
-      ; ID.EQ.11 -------> DVA for ATO
-      ; ID.EQ.12 -------> DVA for PYRI  
+| Sample Type     | ID        | Data Type | Drug  |
+|------------------|-----------|------------|--------|
+| 3D7              | ID = 1    | DVA        | DHA    |
+| 3D7              | ID = 2    | DVA        | CQ     |
+| 3D7              | ID = 3    | DVA        | ATO    |
+| 3D7              | ID = 4    | DVA        | PYRI   |
+| 3D7              | ID = 5    | PRR        | DHA    |
+| 3D7              | ID = 6    | PRR        | CQ     |
+| 3D7              | ID = 7    | PRR        | ATO    |
+| 3D7              | ID = 8    | PRR        | PYRI   |
+| Field Isolates   | ID = 9    | DVA        | DHA    |
+| Field Isolates   | ID = 10   | DVA        | CQ     |
+| Field Isolates   | ID = 11   | DVA        | ATO    |
+| Field Isolates   | ID = 12   | DVA        | PYRI   |
+ 
 
 ⚠️ For each run, make sure to modify the ACCEPT=(ID.EQ.X) clause in the $DATA block to target the desired experiment.
 
