@@ -13,8 +13,8 @@ It implements an ON/OFF effect based on a LAGTIME to simulate the delayed drug r
 -----------------
 - DVA_vs_PRR.csv: input data file containing DVA and PRR observations.
 - runXXX.mod: NONMEM model file.
-- sdtab001: standard output table with individual observations and predictions.
-- patab001: output table for individual parameter estimates.
+- sdtab00X: standard output table with individual observations and predictions.
+- patab00X: output table for individual parameter estimates.
 
 
 The dataset (`.csv`) and the model file (`.mod`) must be placed in the same folder.
@@ -82,6 +82,6 @@ The data file must contain the following columns:
 
 ✍️ Author
 ---------
-NONMEM model written by Mohamed MAIGA  
+NONMEM model written by Mohamed MAIGA and Sebastian Wicha
 Year: 2025
 
