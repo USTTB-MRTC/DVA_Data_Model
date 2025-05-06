@@ -4,6 +4,8 @@ NONMEM Model DVA/PRR
 =================================
 Collaborative project with Merck, USTTB and Hamburg University
 
+
+
 🔎 Objective
 -----------
 This pharmacodynamic (PD) model was developed to simulate the dynamics of parasite viability (DVA) and parasite reduction ratio (PRR) 
